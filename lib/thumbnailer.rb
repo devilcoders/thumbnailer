@@ -15,7 +15,7 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 was_disabled = GC.disable
-require 'thumbnailer/thumbnailer'
+require '#{File.dirname(__FILE__)}/thumbnailer/thumbnailer'
 
 module Thumbnailer
   VERSION = "1.0"
